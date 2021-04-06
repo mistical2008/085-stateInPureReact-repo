@@ -5,7 +5,7 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="wrapper">
-      <Counter />
+      <Counter min={-20} max={30} step={5} />
     </div>
   );
 }
